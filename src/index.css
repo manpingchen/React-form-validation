@@ -49,8 +49,8 @@ body {
 
 .form-control input:focus {
   outline: none;
-  border-color: #240370;
-  background-color: #e0d4fd;
+  border-color: #002eac;
+  background-color: #d4e2fd;
 }
 
 .control-group {
@@ -66,9 +66,9 @@ body {
 
 button {
   font: inherit;
-  background-color: #240370;
+  background-color: #0033c1;
   color: white;
-  border: 1px solid #240370;
+  border: 1px solid #0033c1;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
   cursor: pointer;
@@ -76,8 +76,8 @@ button {
 
 button:hover,
 button:active {
-  background-color: #33059e;
-  border-color: #33059e;
+  background-color: #033bd5;
+  border-color: #033bd5;
 }
 
 button:disabled,
@@ -96,16 +96,21 @@ button:disabled:active {
   margin-left: 1rem;
 }
 
+p {
+  margin-top: 0.2rem;
+}
+
 .invalid input {
-  border: 1px solid #b40e0e;
-  background-color: #fddddd;
+  border: 1px solid #fc2525;
+  background-color: #feecec;
 }
 
 .invalid input:focus {
-  border-color: #ff8800;
-  background-color: #fbe8d2;
+  border-color: #ff585894;
+  background-color: #feecec73;
+  border-width: 4px;
 }
 
 .error-text {
-  color: #b40e0e;
+  color: #fc2525;
 }
