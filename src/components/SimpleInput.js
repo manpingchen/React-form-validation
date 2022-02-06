@@ -35,12 +35,11 @@ const SimpleInput = () => {
   const formSubmitHandler = (event) => {
     event.preventDefault();
 
-    if (!isEnteredNameValid || !isEnteredEmailValid) {
+    if (!formIsValid) {
       return;
     }
     nameInputResetHandler();
     emailInputResetHandler();
-    console.log({ enteredName, enteredEmail });
   };
 
   const nameInputClasses = !isEnteredNameHasError ? "form-control" : "form-control invalid";
